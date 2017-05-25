@@ -6,7 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 
-# gem 'devise'
+gem 'devise'
+gem 'devise-bootstrap-views'
 gem 'rails', '~> 5.1.1'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
